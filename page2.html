@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio - Safuan Mahroum</title>
+    <link rel="icon" href="images/safuan.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="fadein">
+    <h2>Choisissez un personnage</h2>
+
+    <div class="personnage">
+        <div>
+            <a href="page3.html">
+                <img class="zoom" src="images/paneau1.png" alt="Safuan Mahroum">
+                <h2>Safuan Mahroum</h2>
+            </a>
+        </div>
+    </div>
+
+    <audio id="hoverSound" src="images/select.mp3" preload="auto"></audio>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('mouseover', () => {
+                document.getElementById('hoverSound').play();
+            });
+        });
+    </script>
+</body>
+
+</html>
