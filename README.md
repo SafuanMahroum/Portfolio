@@ -9,5 +9,3 @@ Dans ce portfolio web vous pouvez savoir qui je suis et de quoi je suis capable.
 ![Captura de pantalla 2025-01-12 150213](https://github.com/user-attachments/assets/62a0fc11-e6ef-4ccb-808e-a5a97015728d)
 
 ![Captura de pantalla 2025-01-12 150249](https://github.com/user-attachments/assets/13a360b0-1072-465f-93c1-4f12104dca96)
-
-![Captura de pantalla 2025-01-12 151014](https://github.com/user-attachments/assets/705a6284-ca8d-4864-8baf-187fceeea768)
