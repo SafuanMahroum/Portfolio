@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio - Safuan Mahroum</title>
+    <link rel="icon" href="images/safuan.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Découvrez qui est Safuan Mahroum</h1>
+
+    <h3><a class=intro href="choisissez.html">Commencer</a></h3>
+
+    <video autoplay muted loop>
+        <source src="images/Videoflame.mp4" type="video/mp4">
+    </video>
+
+    <audio id="hoverSound" src="images/select.mp3" preload="auto"></audio>
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('mouseover', () => {
+                document.getElementById('hoverSound').play();
+            });
+        });
+    </script>
+</body>
+
+</html>
