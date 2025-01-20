@@ -1,6 +1,6 @@
 # Portfolio
 
-Dans ce portfolio web vous pouvez savoir qui je suis et de quoi je suis capable. Vous pouvez le visiter dans le liens suivant --> https://safuanmahroum.github.io/Portfolio/
+Dans ce portfolio web, vous pouvez en apprendre davantage sur moi, mes goûts, mes intérêts et mes projets créatifs que j'ai réalisés au fil des années et vous verrez de quoi je suis capable. Vous pouvez le visiter dans le liens suivant --> https://safuanmahroum.github.io/Portfolio/
 
 ![Captura de pantalla 2025-01-12 144212](https://github.com/user-attachments/assets/e0a07bc3-b0f8-423e-a9e1-48e6a306d8dc)
 
