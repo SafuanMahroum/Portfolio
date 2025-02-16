@@ -187,6 +187,10 @@ input:hover{
     animation: fadeIn 3s;
 }
 
+.hide {
+    width: 0%;
+}
+
 /* Video au fond*/
 video {
     position: fixed;
