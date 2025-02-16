@@ -2,7 +2,7 @@
 
 Dans ce portfolio web, vous pouvez en apprendre davantage sur moi, mes goûts, mes intérêts et mes projets créatifs que j'ai réalisés au fil des années et vous verrez de quoi je suis capable. Vous pouvez le visiter dans le liens suivant --> https://safuanmahroum.github.io/Portfolio
 
-![Capture](https://github.com/user-attachments/assets/e0a07bc3-b0f8-423e-a9e1-48e6a306d8dc)
+![Capture](https://github.com/user-attachments/assets/53eef28d-5ae2-42e8-ad74-fc44e4ccd907)
 
 ![Capture](https://github.com/user-attachments/assets/1fad8397-b47b-45b6-9b4a-9c434a84f134)
 
