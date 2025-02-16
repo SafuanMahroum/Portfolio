@@ -6,6 +6,6 @@ Dans ce portfolio web, vous pouvez en apprendre davantage sur moi, mes goûts, m
 
 ![Capture](https://github.com/user-attachments/assets/1fad8397-b47b-45b6-9b4a-9c434a84f134)
 
-![Capture](https://github.com/user-attachments/assets/84a30c38-c9d7-45a5-8c37-32f51b2bf15e)
+![Capture](https://github.com/user-attachments/assets/67c09604-403b-4be4-bc8e-7c57b3e33da7)
 
 ![Capture](https://github.com/user-attachments/assets/fd3ee245-b0be-46d1-a132-cd210196e9f3)
