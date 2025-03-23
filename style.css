@@ -1,0 +1,741 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(65, 39, 48);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(104, 77, 85);
+    border-radius: 10px;
+}
+
+
+footer {
+    margin-top: auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+    font-family: 'Jersey 10', sans-serif;
+    text-align: center;
+
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+
+    height: 100%;
+    padding-top: 5em;
+}
+
+.intro {
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+}
+
+
+.bienvenue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 4.6em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.sous-titre {
+    font-size: 2em;
+    color: #bbb;
+    margin: 0 0 30px;
+}
+
+.description {
+    font-size: 1.6em;
+    color: #bbb;
+    margin: 0 0 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.bouton {
+    background-color: rgb(114, 33, 60);
+    color: white;
+    padding: 0.6em 1.3em;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: "Jersey 10";
+}
+
+.bouton:hover {
+    background-color: rgb(150, 40, 80);
+    color: yellow;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgb(114, 33, 60);
+    padding: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reseauxsociaux {
+    margin-left: 2em;
+
+}
+
+.reseauxsociaux img {
+    width: 2em;
+    margin: 0 0.4em;
+    transition: 0.3s;
+}
+
+.reseauxsociaux img:hover {
+    transform: scale(1.2);
+
+}
+
+footer div p {
+    margin-left: 5em;
+}
+
+.creation {
+    margin-right: 2em;
+}
+
+.creation p {
+    margin: 0.5em;
+}
+
+.creation img {
+    height: 2em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: normal;
+    display: flex;
+    margin: 0 0 1em 2em;
+}
+
+.personnages {
+    display: flex;
+    justify-content: center;
+}
+
+.personnages div {
+    margin: 0 3em;
+}
+
+.personnages div a img {
+    width: 17em;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+h3 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0.8em 0 1em;
+}
+
+.personnages a {
+    color: white;
+    text-decoration: none;
+}
+
+.personnages div a:hover {
+    color: yellow;
+}
+
+.personnages div a:hover img {
+    transform: scale(1.1);
+}
+
+.background1 {
+    background-image: url(images/background1.jpg);
+}
+
+.background2 {
+    background-image: url(images/background2.png);
+}
+
+.background3 {
+    background-image: url(images/background3.jpg);
+}
+
+.sticker {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    z-index: -1;
+    width: 110vw;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.sticker1 {
+    transform: translate(-50%, -112%) rotate(-4deg);
+}
+
+.sticker2 {
+    transform: translate(-50%, -112%) rotate(-2deg);
+    top: 75%;
+}
+
+.sticker3 {
+    transform: translate(-50%, -112%) rotate(2deg);
+}
+
+.sticker4 {
+    transform: translate(-57%, -112%) rotate(-2deg);
+    top: 60%;
+    left: 55%;
+}
+
+.sticker5 {
+    transform: translate(-50%, -112%) rotate(2deg);
+    top: 111%;
+}
+
+.sticker6 {
+    transform: translate(-50%, -112%) rotate(-2deg);
+    top: 160%;
+}
+
+/* header */
+header {
+    background-color: rgb(114, 33, 60);
+    padding: 1em;
+    margin: 0 0 2em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 1em;
+    font-size: 1.8em;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff8a8a;
+}
+
+/* Formulaire mail*/
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(65, 39, 48);
+    padding: 2%;
+    border-radius: 10px;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 4em;
+}
+
+.mail {
+    font-size: 1.3em;
+}
+
+.mail input,
+.mail textarea {
+    padding: 1em;
+    font-family: "Jersey 10";
+    width: 17em;
+}
+
+.mail textarea {
+    max-width: 17em;
+    max-height: 20em;
+    min-width: 17em;
+    min-height: 2.2em;
+}
+
+.mail_input {
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size: 1.2em;
+    background: rgb(104, 77, 85);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.mail_input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/*Musique */
+#boutonmusique {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    background: none;
+    border: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#boutonmusique:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+
+/*Personnage 2 */
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 3% 0 3% 0;
+    align-items: center;
+    gap: 10em;
+    background-image: url(/images/box.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.bouton2 {
+    background-color: rgb(114, 33, 60);
+    color: white;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+    font-size: 2.5em;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    font-family: "Jersey 10";
+}
+
+.bouton2:hover {
+    background-color: rgb(150, 40, 80);
+    color: yellow;
+    transform: scale(1.1);
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bienvenue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Portfolio */
+.projets {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 10px;
+    transition: 0.3s;
+}
+
+.projets:hover {
+    transform: scale(1.1);
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    flex-wrap: wrap;
+    margin: 0 8em 4em;
+
+}
+
+article {
+    background-color: #a91947;
+    border: 2px solid rgb(212, 86, 107);
+    border-radius: 8px;
+    max-width: 22em
+}
+
+/*Montages */
+.gallerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallerie iframe {
+    width: 60%;
+    height: 40.2rem;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin: 1em;
+}
+
+
+/*Remonter*/
+.bouton3 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.bouton3 img {
+    width: 60px;
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.bouton3:hover {
+    opacity: 1;
+}
+
+.zoom {
+    transition: 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+/*Fullscreen */
+.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.fullscreen.show {
+    opacity: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/*Collage photo */
+.collage {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10em 0 10em;
+}
+
+.collage img {
+    width: 20%;
+    cursor: -webkit-zoom-in;
+}
+
+.collage div {
+    display: flex;
+    justify-content: center;
+}
+
+.collage2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10em 0 10em;
+}
+
+.collage2 img {
+    width: 22%;
+    cursor: -webkit-zoom-in;
+}
+
+.collage2 div {
+    display: flex;
+    justify-content: center;
+}
+
+
+.collage3 img {
+    width: 25%;
+}
+
+.collage,
+.collage2,
+.collage3,
+.collage4 {
+    margin-bottom: 2em;
+}
+
+.collage4 img {
+    width: 35%;
+    cursor: -webkit-zoom-in;
+}
+
+@media (max-width: 1440px) {
+
+    /*Contact */
+    .mail input,
+    .mail textarea {
+        width: 13em;
+    }
+
+    #form {
+        width: 24em;
+    }
+
+    .mail textarea {
+        min-width: 13em;
+    }
+
+    /*Portfolio */
+    h3 {
+        font-size: 2em;
+    }
+
+    .portfolio {
+        margin: 0 3em 2em;
+    }
+
+    .gallerie iframe {
+        width: 73%;
+        height: 35.2rem;
+        margin: 2em;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    /*Header */
+    header {
+        padding: 0.5em;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    nav ul li {
+        font-size: 1.1em;
+        padding: 0.6em;
+        margin: 0em;
+    }
+
+    /*Accueil */
+    h1 {
+        font-size: 3em;
+    }
+
+    .sous-titre {
+        font-size: 1.7em
+    }
+
+    /*Sur moi */
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        margin: 0 0 0.9em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .personnages {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .personnages div {
+        text-align: center;
+    }
+
+    .personnages img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .personnages h3 {
+        font-size: 2em;
+        margin-top: 0.3em;
+    }
+
+    #boutonmusique img {
+        width: 3em;
+    }
+
+    /*Contact */
+    .mail input,
+    .mail textarea {
+        width: 13em;
+    }
+
+    #form {
+        width: 24em;
+    }
+
+    .mail textarea {
+        min-width: 13em;
+    }
+
+    /*Portfolio */
+    h3 {
+        font-size: 2em;
+    }
+
+    .portfolio {
+        margin: 0 3em 2em;
+    }
+
+
+    .gallerie iframe {
+        width: 76%;
+        height: 11.2rem;
+        margin: 2em;
+    }
+
+    .youtube img {
+        max-width: 70%;
+    }
+
+    .collage2 {
+        padding: 0;
+    }
+
+    .collage2 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collage2 img {
+        width: 70%;
+    }
+
+    .collage3 img {
+        width: 20em;
+    }
+
+    .collage {
+        padding: 0;
+    }
+
+    .collage div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collage img {
+        width: 15em;
+    }
+
+    .collage4 {
+        padding: 0;
+    }
+
+    .collage4 div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collage4 img {
+        width: 20em;
+    }
+
+    /*Footer */
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .reseauxsociaux img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer div p {
+        text-align: center;
+        font-size: 12px;
+        margin: 0.5em 0;
+    }
+
+    .creation img {
+        width: 60px;
+        /* Ajusta el tamaño de los banners */
+        height: auto;
+    }
+
+    .creation {
+        margin: 0;
+    }
+
+    .reseauxsociaux {
+        margin: 0;
+    }
+}

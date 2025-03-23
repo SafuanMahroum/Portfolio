@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Safuan Mahroum</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('yq54V-MJr0AupwRF_')
+    </script>
+</head>
+
+<body class="intro background2">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Safuan Mahroum</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="surmoi.html">SUR MOI</a></li>
+                <li><a href="#"><span style="color: #ff8a8a">CONTACT</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1 style="font-size: 3.2em; margin: 0 0 0.4em;"> Avez-vous aimé l'aventure ?</h1>
+
+        <p class="sous-titre" style="font-size: 1.6em; margin: 0 0 1em;">Je vous invite a me contacter par :<br>
+        <span style="color: aliceblue;">
+                Mail : safuanmahroum@gmail.com<br>
+                Teléphone : 07 58 47 81 07<br>
+                LinkedIn : Safuan Mahroum</span></p>
+
+        <a href="doc/CV_SafuanMAHROUM.pdf" download="CV_SafuanMAHROUM.pdf" class="bouton">Télécharger mon CV</a>
+
+        <p class="sous-titre" style="font-size: 1.6em; margin: 2em 0 0.5em;">Ou directement par ce formulaire :</p>
+
+        <form id="form">
+            <div class="mail">
+                <input class="mail_input" type="text" name="from_name" id="from_name" placeholder="Nom" maxlength="100"
+                    required>
+            </div>
+            <div class="mail">
+                <textarea class="mail_input" name="message" id="message" placeholder="Message" maxlength="2000"
+                    required></textarea>
+            </div>
+            <div class="mail">
+                <input class="mail_input" type="email" name="email_id" id="email_id" placeholder="Mail" maxlength="50"
+                    required>
+            </div>
+            <input class="bouton" type="submit" id="button" value="Envoyer">
+        </form>
+
+        <script src="formulaire.js"></script>
+    </section>
+
+    <footer>
+        <div class="reseauxsociaux">
+            <a href="https://www.linkedin.com/in/safuan-mahroum/" target="_blank"><img src="images/linkedin.svg"></a>
+            <a href="https://www.youtube.com/@thepanterswit" target="_blank"><img src="images/youtube.svg"></a>
+            <a href="https://github.com/SafuanMahroum" target="_blank"><img src="images/github.svg"></a>
+            <a href="mailto:safuanmahroum@gmail.com"><img src="images/mail.svg"></a>
+            <a href="tel:+33758478107"><img src="images/call.svg"></a>
+        </div>
+
+        <div>
+            <p>2025 Safuan Mahroum Portfolio.</p>
+        </div>
+
+        <div class="creation">
+            <p>Ce site web a été créé avec :</p>
+            <img src="images/htmlbanner2.png">
+            <img src="images/cssbanner2.png">
+            <img src="images/javascriptbanner2.png">
+        </div>
+    </footer>
+</body>
+
+</html>
