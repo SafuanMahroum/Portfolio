@@ -1,11 +1,11 @@
 # Portfolio
 
-Dans ce portfolio web, vous pouvez en apprendre davantage sur moi, mes goûts, mes intérêts et mes projets créatifs que j'ai réalisés au fil des années et vous verrez de quoi je suis capable. Vous pouvez le visiter dans le liens suivant --> https://safuanmahroum.github.io/Portfolio
+Bienvenue sur mon portfolio et site personnel ! Vous y découvrirez mes réalisations et projets, fruits de ma passion pour la création. En plus, vous pourrez en apprendre davantage sur moi, mes goûts, et même me contacter directement. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant --> https://safuanmahroum.github.io/Portfolio
 
-![Capture](https://github.com/user-attachments/assets/2ffae761-8575-45ba-ba6b-4bb0f349bc4c)
+![Captura de pantalla 2025-03-23 121934](https://github.com/user-attachments/assets/2da72a37-6819-4e32-88d0-153a842d3c5b)
 
-![Capture](https://github.com/user-attachments/assets/6390ff81-9c26-4585-a66c-485f31aa6977)
+![Captura de pantalla 2025-03-23 224543](https://github.com/user-attachments/assets/9989df97-fbbc-4d63-8bb5-05e2446a03de)
 
-![Capture](https://github.com/user-attachments/assets/aeb860aa-af8f-4c8a-b39a-891aca13f59f)
+![Captura de pantalla 2025-03-23 121926](https://github.com/user-attachments/assets/4e06ef97-38eb-4ce4-a49e-c02df2d2616c)
 
-![Capture](https://github.com/user-attachments/assets/83ebf593-536a-4394-b74f-9ba62429e4aa)
+![Captura de pantalla 2025-03-23 224550](https://github.com/user-attachments/assets/2b66fd01-4da9-4a79-b8da-2e967cbd1613)
