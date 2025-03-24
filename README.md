@@ -1,6 +1,6 @@
 # Portfolio
 
-## Bienvenue sur mon portfolio et site personnel ! 
+## Bienvenue sur site web personnel ! 
 
 ### Vous y découvrirez mes réalisations et projets, fruits de ma passion pour la création. En plus, vous pourrez en apprendre davantage sur moi, mes goûts, et même me contacter directement. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant --> https://safuanmahroum.github.io/Portfolio
 
