@@ -329,7 +329,7 @@ a:hover {
     padding: 3% 0 3% 0;
     align-items: center;
     gap: 10em;
-    background-image: url(/images/box.gif);
+    background-image: url(images/box.gif);
     background-size: cover;
     background-position: center;
 }
