@@ -526,7 +526,13 @@ article {
     cursor: -webkit-zoom-in;
 }
 
-@media (max-width: 1440px) {
+.surmoi {
+    display: flex; 
+    justify-content: center; 
+    padding: 0 11em 0 0;
+}
+
+@media (max-width: 1540px) {
 
     /*Contact */
     .mail input,
@@ -557,6 +563,14 @@ article {
         margin: 2em;
     }
 
+    /*Personnages*/
+    .personnages img {
+        width: 100%;
+        max-width: 15em;
+        height: auto;
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 430px) {
@@ -573,7 +587,7 @@ article {
     }
 
     nav ul li {
-        font-size: 1.1em;
+        font-size: 1.3em;
         padding: 0.6em;
         margin: 0em;
     }
@@ -620,6 +634,10 @@ article {
 
     #boutonmusique img {
         width: 3em;
+    }
+
+    p {
+        font-size: 0.8em;
     }
 
     /*Contact */
@@ -703,6 +721,26 @@ article {
         width: 20em;
     }
 
+    /*Personnages */
+    .surmoi {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .surmoi div {
+        margin: 0em !important;
+    }
+
+    .box {
+        padding: 2%;
+        gap: 1%;
+    }
+
+    .bouton2 {
+        font-size: 1.5em
+    }
+
     /*Footer */
     footer {
         display: flex;
@@ -724,7 +762,6 @@ article {
 
     .creation img {
         width: 60px;
-        /* Ajusta el tamaño de los banners */
         height: auto;
     }
 
