@@ -496,7 +496,7 @@ article {
 .collage2 {
     display: flex;
     flex-direction: column;
-    padding: 0 10em 0 10em;
+    padding: 0;
 }
 
 .collage2 img {
@@ -511,7 +511,7 @@ article {
 
 
 .collage3 img {
-    width: 25%;
+    width: 35%;
 }
 
 .collage,
