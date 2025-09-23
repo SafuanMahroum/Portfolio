@@ -367,6 +367,20 @@ body {
 }
 
 /* Portfolio */
+
+.titrage {
+    background-color: rgb(114, 33, 60);
+    color: white;
+    padding: 0.3em 5em;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border: solid 2px rgb(216, 102, 140);;
+    font-family: "Jersey 10";
+    display: inline-block;
+    margin: 0 0 1.1em;
+    font-size: 2.2em
+}
+
 .projets {
     width: 100%;
     border-top-left-radius: 8px;
