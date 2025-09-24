@@ -136,6 +136,12 @@ h2 {
     margin: 0 0 1em 2em;
 }
 
+h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 0 0 1em;
+}
+
 .personnages {
     display: flex;
     justify-content: center;
@@ -283,7 +289,7 @@ a:hover {
 }
 
 .mail textarea {
-    max-width: 17em;
+    max-width: 0;
     max-height: 20em;
     min-width: 17em;
     min-height: 2.2em;
@@ -383,8 +389,8 @@ body {
 
 .projets {
     width: 100%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
     transition: 0.3s;
 }
 
