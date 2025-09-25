@@ -25,39 +25,18 @@
     </header>
 
     <main>
-        <h3 style="font-size: 3.2em; margin: 0.5em 0 0.4em;">Vidéo CV</h3>
+        <h3 style="font-size: 3.2em; margin: 0.5em 0 0.4em;">F-22 Raptor</h3>
 
-        <div class="gallerie">
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/ideCWEB1sPM?si=gAq5DN4pWVx8YQ0p"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img src="../images/f22raptor.jpg" style="width: 45%; margin: 1em 0 1em; cursor: -webkit-zoom-in;"
+            onclick="openFullscreen(this)">
+
+        <div id="fullscreen-view" class="fullscreen" style="display: none;">
+            <button class="close-btn" onclick="closeFullscreen()">✖</button>
+            <img id="fullscreen-image" src="" alt="Fullscreen Image">
         </div>
 
-        <div class="recomendation">
-            <h3 style="font-size: 3.2em; margin: 0.5em;">Ça peut vous intéresser aussi :</h3>
-        </div>
+        <script src="../fullscreen.js"></script>
 
-        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em;">
-            <article>
-                <div>
-                    <a href="../Portfolio/badmoment.html"><img class="projets" src="../images/min_badmoment.webp"></a>
-                </div>
-
-                <div>
-                    <h3 style="margin: 0.2em;">BAD MOMENT - Clip</h3>
-
-                    <p style="margin: 0.15em">
-                        Chaine YouTube personnel ou je crée du contenu vidéo varié en espagnol avec des sous-titres en
-                        français.
-                    </p>
-
-                    <img style="width: 30%; margin: 0;" src="../images/premiereprobanner.png">
-                </div>
-            </article>
-        </div>
-
-        <script src="../remonter.js"></script>
     </main>
 
     <footer>
