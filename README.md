@@ -2,12 +2,12 @@
 
 ## 😊 Bienvenue sur mon site web personnel ! 
 
-### 🎨 Vous y découvrirez mes réalisations et projets, fruits de ma passion pour la création. En plus, vous pourrez en apprendre davantage sur moi, mes goûts, et même me contacter directement. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant --> https://safuanmahroum.github.io/Portfolio
+### 🎨 Vous y découvrirez mes réalisations et projets réalisés durant mon cursus au BUT MMI, ainsi que des créations personnelles. Vous en apprendrez davantage sur moi et trouverez mes coordonnées pour me contacter. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant → https://safuanmahroum.github.io/Portfolio
 
-![Captura de pantalla 2025-03-23 225013](https://github.com/user-attachments/assets/d8a6ba60-ea6f-4ea0-a6f9-567ef9502b28)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b41e854a-0a63-4378-9d2e-481bbe88a912" />
 
-![Captura de pantalla 2025-03-23 224543](https://github.com/user-attachments/assets/9989df97-fbbc-4d63-8bb5-05e2446a03de)
+<img width="1918" height="1076" alt="image" src="https://github.com/user-attachments/assets/30ff3229-7d3e-45e2-9903-0a97596bfaa0" />
 
-![Captura de pantalla 2025-03-23 121926](https://github.com/user-attachments/assets/4e06ef97-38eb-4ce4-a49e-c02df2d2616c)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/87f77c53-7767-4b1a-8c0a-30ab128e5eec" />
 
-![Captura de pantalla 2025-03-23 224550](https://github.com/user-attachments/assets/2b66fd01-4da9-4a79-b8da-2e967cbd1613)
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b6e19deb-6953-47e4-9809-55a1d0b25943" />
