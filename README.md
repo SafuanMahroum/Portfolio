@@ -2,7 +2,7 @@
 
 ## 😊 Bienvenue sur mon site web personnel ! 
 
-### 🎨 Vous y découvrirez mes réalisations et projets, fruits de ma passion pour la création. En plus, vous pourrez en apprendre davantage sur moi, mes goûts, et même me contacter directement. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant --> https://safuanmahroum.github.io/Portfolio
+### 🎨 Vous y découvrirez mes réalisations et projets réalisés durant mon cursus au BUT MMI, ainsi que des créations personnelles. Vous en apprendrez davantage sur moi et trouverez mes coordonnées pour me contacter. N'hésitez pas à jeter un coup d'œil en cliquant sur le lien suivant → https://safuanmahroum.github.io/Portfolio
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b41e854a-0a63-4378-9d2e-481bbe88a912" />
 
