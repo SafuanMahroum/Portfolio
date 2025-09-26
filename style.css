@@ -15,6 +15,10 @@ footer {
     margin-top: auto;
 }
 
+main {
+    padding: 2em;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -554,6 +558,11 @@ article {
 
 @media (max-width: 1540px) {
 
+    .titrage {
+        padding: 0.3em 5em;
+        font-size: 2em;
+    }
+
     /*Contact */
     .mail input,
     .mail textarea {
@@ -595,9 +604,14 @@ article {
 
 @media (max-width: 430px) {
 
+    .titrage {
+        font-size: 1.7em;
+        padding: 0.3em 2em;
+    }
+
     /*Header */
     header {
-        padding: 0.5em;
+        padding: 0.5em 0;
     }
 
     nav ul {
@@ -607,7 +621,7 @@ article {
     }
 
     nav ul li {
-        font-size: 1.3em;
+        font-size: 1.1em;
         padding: 0.6em;
         margin: 0em;
     }
