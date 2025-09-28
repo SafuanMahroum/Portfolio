@@ -12,7 +12,7 @@
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 0;
 }
 
 main {
@@ -568,7 +568,7 @@ article {
 
     .recomendations article {
         min-width: 10em;
-        
+
     }
 
     .titrage {
@@ -615,7 +615,21 @@ article {
 
 }
 
-@media (max-width: 430px) {
+.download {
+    display: inline-block;
+}
+
+.download img {
+    width: 0.8em;
+    margin-left: 0.1em;
+    vertical-align: middle;
+}
+
+.cv-download:hover img {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(98%) saturate(748%) hue-rotate(1deg) brightness(104%) contrast(104%);
+}
+
+@media (max-width: 440px) {
 
     .recomendations {
         flex-direction: column;
@@ -738,7 +752,7 @@ article {
     }
 
     .collage2 img {
-        width: 70%; 
+        width: 70%;
     }
 
     .collage3 img {
