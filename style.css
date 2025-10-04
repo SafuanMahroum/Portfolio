@@ -554,7 +554,6 @@ article {
 .surmoi {
     display: flex;
     justify-content: center;
-    padding: 0 6em 0 0;
 }
 
 .recomendations {
@@ -629,7 +628,15 @@ article {
     filter: brightness(0) saturate(100%) invert(81%) sepia(98%) saturate(748%) hue-rotate(1deg) brightness(104%) contrast(104%);
 }
 
+.persosection {
+    padding: 2em;
+}
+
 @media (max-width: 440px) {
+
+    .persoimg {
+        margin: 0 1em 0 1em !important;
+    }
 
     .recomendations {
         flex-direction: column;
