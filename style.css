@@ -11,6 +11,10 @@
     border-radius: 10px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 footer {
     margin-top: 0;
 }
