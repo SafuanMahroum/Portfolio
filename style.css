@@ -12,7 +12,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 footer {
@@ -124,13 +124,6 @@ footer {
     height: 2em;
 }
 
-h2 {
-    font-size: 3em;
-    font-weight: normal;
-    display: flex;
-    margin: 0 0 1em 2em;
-}
-
 h4 {
     font-size: 1.5em;
     font-weight: normal;
@@ -153,9 +146,9 @@ h4 {
 }
 
 h3 {
-    font-size: 2.5em;
     font-weight: normal;
-    margin: 0.8em 0 1em;
+    font-size: 3em;
+    margin: 0.5em 0 0.5em;
 }
 
 .personnages a {
@@ -425,7 +418,6 @@ article {
     margin: 1em;
 }
 
-
 /*Remonter*/
 .bouton3 {
     background: none;
@@ -525,7 +517,6 @@ article {
     justify-content: center;
 }
 
-
 .collage3 img {
     width: 35%;
 }
@@ -554,6 +545,34 @@ article {
     gap: 4em
 }
 
+.download {
+    display: inline-block;
+}
+
+.download img {
+    width: 0.8em;
+    margin-left: 0.1em;
+    vertical-align: middle;
+}
+
+.cv-download:hover img {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(98%) saturate(748%) hue-rotate(1deg) brightness(104%) contrast(104%);
+}
+
+.persosection {
+    padding: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0.8em 0 1em;
+}
+
+.description_article {
+    padding: 0 0.7em 0 0.7em;
+}
+
 @media (max-width: 1540px) {
 
     .recomendations article {
@@ -580,11 +599,6 @@ article {
         min-width: 13em;
     }
 
-    /*Portfolio */
-    h3 {
-        font-size: 2em;
-    }
-
     .portfolio {
         margin: 0 3em 2em;
     }
@@ -602,25 +616,6 @@ article {
         height: auto;
         margin: 0 auto;
     }
-
-}
-
-.download {
-    display: inline-block;
-}
-
-.download img {
-    width: 0.8em;
-    margin-left: 0.1em;
-    vertical-align: middle;
-}
-
-.cv-download:hover img {
-    filter: brightness(0) saturate(100%) invert(81%) sepia(98%) saturate(748%) hue-rotate(1deg) brightness(104%) contrast(104%);
-}
-
-.persosection {
-    padding: 2em;
 }
 
 @media (max-width: 440px) {
@@ -708,10 +703,13 @@ article {
     .mail input,
     .mail textarea {
         width: 13em;
+        font-size: 1em;
     }
 
     #form {
-        width: 24em;
+        width: 21em;
+        height: 23em;
+        padding-top: 1em;
     }
 
     .mail textarea {
