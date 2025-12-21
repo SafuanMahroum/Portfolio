@@ -528,9 +528,30 @@ article {
     margin-bottom: 2em;
 }
 
+.collage2 img {
+    width: 30%;
+}
+
 .collage4 img {
     width: 35%;
     cursor: -webkit-zoom-in;
+}
+
+.collagecarre img {
+        width: 30%;
+}
+
+.collage16-9 img {
+        width: 45%;
+}
+
+.afficheseule {
+    width: 45%;
+}
+
+.magazineexpodrive{
+    width: 900px;
+    height: 600px;
 }
 
 .surmoi {
@@ -748,7 +769,7 @@ h2 {
     }
 
     .collage2 img {
-        width: 70%;
+        width: 100%;
     }
 
     .collage3 img {
@@ -781,6 +802,23 @@ h2 {
 
     .collage4 img {
         width: 20em;
+    }
+
+    .collage16-9 img {
+        width: 100%;
+    }
+
+    .gallerie img {
+        width: 100%;
+    }
+
+    .magazineexpodrive{
+        width: 350px;
+        height: 600px;
+    }
+
+    .afficheseule {
+        width: 100%;
     }
 
     /*Personnages */
