@@ -127,7 +127,7 @@ footer {
 h4 {
     font-size: 1.5em;
     font-weight: normal;
-    margin: 0 0 1em;
+    margin: 1em 14em 0 14em;
 }
 
 .personnages {
@@ -260,7 +260,7 @@ a:hover {
     background-color: rgb(65, 39, 48);
     padding: 2%;
     border-radius: 10px;
-    width: 25%;
+    width: 31%;
     margin: auto;
     margin-bottom: 4em;
 }
@@ -538,18 +538,18 @@ article {
 }
 
 .collagecarre img {
-        width: 30%;
+    width: 30%;
 }
 
 .collage16-9 img {
-        width: 45%;
+    width: 45%;
 }
 
 .afficheseule {
     width: 45%;
 }
 
-.magazineexpodrive{
+.magazineexpodrive {
     width: 900px;
     height: 600px;
 }
@@ -594,11 +594,14 @@ h2 {
     padding: 0 0.7em 0 0.7em;
 }
 
-@media (max-width: 1540px) {
+.titreespace {
+    margin: 1.5em 0 0.5em 0;
+}
+
+@media (max-width: 1024px) {
 
     .recomendations article {
         min-width: 10em;
-
     }
 
     .titrage {
@@ -637,9 +640,15 @@ h2 {
         height: auto;
         margin: 0 auto;
     }
+
+    h4 {
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1em 4em 0 4em;
+    }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
     .persoimg {
         margin: 0 1em 0 1em !important;
@@ -664,11 +673,13 @@ h2 {
         display: flex;
         justify-content: center;
         padding: 0;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     nav ul li {
         font-size: 1.1em;
-        padding: 0.6em 0.4em 0.6em;
+        padding: 0.6em 0.5em;
         margin: 0em;
     }
 
@@ -812,7 +823,7 @@ h2 {
         width: 100%;
     }
 
-    .magazineexpodrive{
+    .magazineexpodrive {
         width: 350px;
         height: 600px;
     }
@@ -856,7 +867,7 @@ h2 {
 
     footer div p {
         text-align: center;
-        font-size: 12px;
+        font-size: 1em;
         margin: 0.5em 0;
     }
 
@@ -866,10 +877,16 @@ h2 {
     }
 
     .creation {
+        font-size: 1em;
         margin: 0;
     }
 
     .reseauxsociaux {
         margin: 0;
+    }
+
+    h4 {
+        font-size: 1.2em;
+        margin: 1em 1em 0 1em;
     }
 }

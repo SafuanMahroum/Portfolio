@@ -17,7 +17,7 @@
         <nav>
             <ul>
                 <li><a href="../index.html">Safuan Mahroum</a></li>
-                <li><a href="#"><span style="color: #ff8a8a">PORTFOLIO</span></a></li>
+                <li><a href="../portfolio.html"><span style="color: #ff8a8a">PORTFOLIO</span></a></li>
                 <li><a href="../a-propos.html">À PROPOS</a></li>
                 <li><a href="../contact.html">CONTACT</a></li>
             </ul>
@@ -25,17 +25,19 @@
     </header>
 
     <main>
-        <h3 style="font-size: 3.2em; margin: 0.5em 0 0.4em;">Association "Inclusion des Jeunes au Travail"</h3>
+        <h3 style="margin: 0.5em 0 0">Association Inclusion des Jeunes au Travail</h3>
         <h4>SAÉ 2024 (Situation d’Apprentissage et d’Évaluation)<br><br>
+
+            Objectif : Créer une association qui milite pour l’inclusion des jeunes dans
+            le monde professionnel, ainsi que ses supports de communication<br><br>
             
-        Objectif : Créer une association qui milite pour l’inclusion des jeunes dans<br>
-        le monde professionnel, ainsi que ses supports de communication<h4>
+            (Durée : 4 mois, octobre – janvier).</h4>
 
         <div class="gallerie">
-            <h2 style="margin: 0.5em 0 0.4em;">Logo</h2>
+            <h2 class="titreespace">Logo</h2>
             <img src="../images/logoijt.webp" width="50%" class="logo" onclick="openFullscreen(this)">
 
-            <h2 style="margin: 1em 0 0.4em;">Charte graphique</h2>
+            <h2 class="titreespace">Charte graphique</h2>
             <div>
                 <img src="../images/chartegraphiqueassoijt (1).webp" width="40%" onclick="openFullscreen(this)">
                 <img src="../images/chartegraphiqueassoijt (2).webp" width="40%" onclick="openFullscreen(this)">
@@ -48,32 +50,29 @@
                 <img src="../images/chartegraphiqueassoijt (5).webp" width="40%" onclick="openFullscreen(this)">
             </div>
 
-            <h2 style="margin: 1.5em 0 0em;"> Vidéo de sensibilisation</h2>
-
+            <h2 class="titreespace"> Vidéo de sensibilisation</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/feERA8K9nWc?si=_OY9RmiyEGkl3hgk"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <h4 style="margin: 0.5em 0 0.4em;">Site web</h4>
-            <h4 style="margin: 0 0 1em 0; font-size: 2em;"> Cliquez ci dessous pour visiter le site web</h4>
-
+            <h2 class="titreespace">Site web</h2>
+            <h2 style="margin: 0 0 1em 0; font-size: 2em;"> Cliquez ci dessous pour visiter le site web</h2>
             <article>
                 <div>
                     <a href="https://2025.mmibut1.org/S1/groupe_i/index.html" target="_blank"><img class="projets"
-                            src="../images/min_ijtweb.webp"></a>
+                            src="../images/min_ijtweb.webp" loading="lazy"></a>
                 </div>
-
-                <div>
+                <div class="description_article">
                     <h2 style="margin: 0.2em;">Association IJT</h2>
-
                     <p style="margin: 0.15em">
-                        Site web de l'association Inclusion <br>
-                        des Jeunes au Travail.
+                        Site web de l'association fictive Inclusion des Jeunes au Travail, offrant des
+                        actualités et
+                        informations.
                     </p>
-                    <img style="width: 30%; margin: 0;" src="../images/htmlbanner.webp">
-                    <img style="width: 30%; margin: 0;" src="../images/cssbanner.webp">
-                    <img style="width: 30%; margin-bottom: 1em;" src="../images/javascriptbanner2.webp">
+                    <img style="width: 30%; margin: 0;" src="../images/htmlbanner.webp" loading="lazy">
+                    <img style="width: 30%; margin: 0;" src="../images/cssbanner.webp" loading="lazy">
+                    <img style="width: 30%; margin-bottom: 0.9em;" src="../images/javascriptbanner2.webp" loading="lazy">
                 </div>
             </article>
         </div>
@@ -88,7 +87,6 @@
             <button class="close-btn" onclick="closeFullscreen()">✖</button>
             <img id="fullscreen-image" src="" alt="Fullscreen Image">
         </div>
-
         <script src="../fullscreen.js"></script>
     </main>
 
