@@ -634,7 +634,7 @@ h2 {
     }
 
     /*Personnages*/
-    .personnages img {
+    .personnages div img {
         width: 100%;
         max-width: 15em;
         height: auto;
