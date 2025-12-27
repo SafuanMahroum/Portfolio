@@ -626,12 +626,6 @@ h2 {
     font-size: 2.5em;
 }
 
-@media (min-width: 1440px) {
-    .personnages {
-        gap: 10em;
-    }
-}
-
 @media (max-width: 900px) {
 
     .recomendations article {
