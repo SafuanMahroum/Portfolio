@@ -11,6 +11,12 @@
     border-radius: 10px;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,6 +27,7 @@ footer {
 
 main {
     padding: 2em;
+    flex: 1;
 }
 
 body {
@@ -37,6 +44,9 @@ body {
 
     height: 100%;
     padding-top: 5em;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .intro {
@@ -133,11 +143,9 @@ h4 {
 .personnages {
     display: flex;
     justify-content: center;
+    gap: 7em;
 }
 
-.personnages div {
-    margin: 0 3em;
-}
 
 .personnages div a img {
     width: 17em;
@@ -557,6 +565,13 @@ article {
 .surmoi {
     display: flex;
     justify-content: center;
+
+}
+
+.persoimg {
+    width: 22em;
+    border-radius: 10px;
+    margin: 0 3em;
 }
 
 .recomendations {
@@ -598,7 +613,26 @@ h2 {
     margin: 1.5em 0 0.5em 0;
 }
 
-@media (max-width: 1024px) {
+.competences {
+    font-size: 2em;
+    margin: 0 1em 1em 1em;
+}
+
+.surmoidesc {
+    font-size: 1.7em;
+}
+
+.box p {
+    font-size: 2.5em;
+}
+
+@media (min-width: 1440px) {
+    .personnages {
+        gap: 10em;
+    }
+}
+
+@media (max-width: 900px) {
 
     .recomendations article {
         min-width: 10em;
@@ -634,11 +668,19 @@ h2 {
     }
 
     /*Personnages*/
-    .personnages div img {
-        width: 100%;
-        max-width: 15em;
+
+    .personnages {
+        gap: 1em;
+    }
+
+    .personnages div a img {
+        width: 12em;
         height: auto;
-        margin: 0 auto;
+        margin: 1em;
+    }
+
+    .titreperso {
+        font-size: 1.5em;
     }
 
     h4 {
@@ -652,13 +694,27 @@ h2 {
         height: 30em;
         margin: 2em;
     }
+
+    .box {
+        gap: 2em;
+    }
+
+    .box p {
+        font-size: 2em;
+    }
+
+    .persoimg {
+        margin: 0 1.3em;
+        width: 19em;
+    }
+
+    .competences {
+        font-size: 1.5em;
+        margin: 0;
+    }
 }
 
 @media (max-width: 480px) {
-
-    .persoimg {
-        margin: 0 1em 0 1em !important;
-    }
 
     .recomendations {
         flex-direction: column;
@@ -717,11 +773,13 @@ h2 {
         text-align: center;
     }
 
-    .personnages img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        margin: 0 auto;
+    .personnages div a img {
+        width: 15em;
+    }
+
+    .titreperso {
+        font-size: 2em;
+        margin: 0 0 1em;
     }
 
     .personnages h3 {
@@ -734,7 +792,7 @@ h2 {
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 1.1em;
     }
 
     /*Contact */
@@ -846,12 +904,30 @@ h2 {
     }
 
     .surmoi div {
-        margin: 0em !important;
+        margin: 1em !important;
+    }
+
+    .surmoidesc {
+        font-size: 1.5em;
+    }
+
+    .persoimg {
+        width: 100%;
+        margin: 0;
+    }
+
+    .competences {
+        font-size: 1.8em;
     }
 
     .box {
-        padding: 2%;
-        gap: 1%;
+        padding: 2em;
+        gap: 5%;
+        flex-direction: column;
+    }
+
+    .box p {
+        font-size: 2em
     }
 
     .bouton2 {
