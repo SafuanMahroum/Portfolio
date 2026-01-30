@@ -34,9 +34,8 @@
             (Durée : 3 mois, Novembre – janvier).</h4><br>
 
         <h2>Charte graphique</h2>
-        <div>
-            <embed src="../images/MissionPossibleCharteGraphique.pdf" type="application/pdf" class="pdf" />
-        </div>
+        <img src="../images/chartegraphique_missionpossile.webp" width="50%" alt="Charte graphique Mission Possible" class="charte"
+                onclick="openFullscreen(this)" style="cursor: zoom-in; cursor: -webkit-zoom-in;">
 
         <h2>Mission Possible</h2>
 
@@ -56,12 +55,10 @@
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <h2>Affiches</h2>
+        <h2>Affiche</h2>
 
         <div class="collage4">
             <img src="../images/missionpossible1.webp" width="33%" onclick="openFullscreen(this)"
-                style="cursor: zoom-in;">
-            <img src="../images/missionpossible2.webp" width="33%" onclick="openFullscreen(this)"
                 style="cursor: zoom-in;">
         </div>
 
@@ -70,7 +67,18 @@
             <embed src="../images/MissionPossibleLivretAccueil.pdf" type="application/pdf" class="pdf" />
         </div>
 
+        <button onclick="scrollToTop()" class="bouton3">
+            <img src="../images/fleche.webp">
+        </button>
+
         <script src="../remonter.js"></script>
+
+        <div id="fullscreen-view" class="fullscreen" style="display: none;">
+            <button class="close-btn" onclick="closeFullscreen()">✖</button>
+            <img id="fullscreen-image" src="" alt="Fullscreen Image">
+        </div>
+
+        <script src="../fullscreen.js"></script>
     </main>
 
     <footer>
