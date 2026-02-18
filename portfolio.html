@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safuan Mahroum | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = { darkMode: 'class', theme: { extend: { fontFamily: { sans: ['Manrope', 'sans-serif'] }, colors: { neutral: { 900: '#0a0a0a', 800: '#171717' } } } } }
+    </script>
+</head>
+
+<body
+    class="bg-neutral-900 text-neutral-300 font-sans h-auto w-screen overflow-x-hidden selection:bg-rose-500/30 selection:text-rose-200">
+    
+    <nav id="main-nav" class="fixed top-6 left-0 right-0 z-50 pointer-events-none flex justify-center px-4 nav-show">
+        <div
+            class="backdrop-blur-xl bg-black/70 border border-white/10 rounded-full px-6 py-4 flex items-center justify-between gap-12 shadow-2xl shadow-black/50 transition-all duration-300 hover:border-white/20">
+            <a href="index.html"
+                class="pointer-events-auto text-lg font-bold tracking-tighter uppercase text-white flex items-center gap-1">
+                Safuan Mahroum<span class="w-1.5 h-1.5 rounded-full bg-red-600 animate-pulse"></span>
+            </a>
+            <div
+                class="pointer-events-auto hidden md:flex items-center gap-8 text-xs font-medium uppercase tracking-widest text-neutral-400">
+                <a href="index.html#à-propos" class="hover:text-white transition-colors">À propos</a>
+                <a href="#" class="hover:text-white transition-colors"><span class="text-white">Réalisations</span></a>
+                <a href="index.html#services" class="hover:text-white transition-colors">Services</a>
+                <a href="index.html#contact" class="hover:text-white transition-colors">Contact</a>
+            </div>
+            <button id="open-menu" class="md:hidden pointer-events-auto">
+                <span class="iconify" data-icon="lucide:menu" data-width="20"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div id="mobile-menu"
+        class="fixed inset-0 z-40 bg-black/70 backdrop-blur-xl opacity-0 pointer-events-none transition-all duration-300">
+        <div
+            class="absolute top-20 left-1/2 -translate-x-1/2 w-[85%] bg-neutral-900/80 border border-white/10 rounded-2xl p-6 shadow-xl space-y-6 text-center">
+            <a href="index.html#à-propos"
+                class="block text-white text-lg font-medium hover:text-rose-400 transition-colors">
+                À propos
+            </a>
+            <a href="#" class="block text-rose-400 text-lg font-medium ">
+                Réalisations
+            </a>
+            <a href="index.html#services"
+                class="block text-white text-lg font-medium hover:text-rose-400 transition-colors">
+                Services
+            </a>
+            <a href="index.html#contact"
+                class="block text-white text-lg font-medium hover:text-rose-400 transition-colors">
+                Contact
+            </a>
+        </div>
+    </div>
+
+    <header class="relative w-full pt-20 pb-10 md:pt-28 md:pb-12 flex flex-col items-center justify-center">
+        <div class="relative z-20 text-center px-4 md:px-6 max-w-5xl mx-auto mt-24 md:mt-32">
+            <h1 class="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-semibold tracking-tighter text-white leading-[0.95] md:leading-[0.9] mb-6"
+                style="transition-delay: 0.2s;">
+                Mes réalisations
+            </h1>
+        </div>
+    </header>
+
+    <div class="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-rose-900/20 rounded-full blur-[120px] blob">
+        </div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[35vw] h-[35vw] bg-indigo-900/20 rounded-full blur-[120px] blob"
+            style="animation-delay: -2s;"></div>
+        <div class="absolute top-[20%] right-[20%] w-[20vw] h-[20vw] bg-neutral-800/40 rounded-full blur-[80px] blob"
+            style="animation-delay: -4s;"></div>
+        <div class="absolute inset-0 opacity-[0.03]"
+            style="background-image:url('data:image/svg+xml,%3Csvg viewBox=\'0 0 200 200\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cfilter id=\'noiseFilter\'%3E%3CfeTurbulence type=\'fractalNoise\' baseFrequency=\'0.65\' numOctaves=\'3\' stitchTiles=\'stitch\'/%3E%3C/filter%3E%3Crect width=\'100%25\' height=\'100%25\' filter=\'url(%23noiseFilter)\'/%3E%3C/svg%3E');">
+        </div>
+    </div>
+    <section id="realisations" class="w-full min-h-screen flex flex-col md:flex-row relative z-10 mt-10">
+        <aside
+            class="w-full md:w-64 border-b md:border-b-0 md:border-r border-white/10 p-6 md:sticky md:top-0 md:h-screen overflow-y-auto">
+            <h3 class="text-neutral-500 text-xs uppercase tracking-widest mb-4">Projets</h3>
+            <div class="space-y-2">
+                <button class="project-btn block text-left" data-project="illustrations"
+                    onclick="loadProject('illustrations')">
+                    <span
+                        class="project-label font-semibold text-white inline-block transition-all duration-200">Illustrations</span>
+                </button>
+                <button class="project-btn block text-left" data-project="missionpossible"
+                    onclick="loadProject('missionpossible')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Mission
+                        Possible</span>
+                </button>
+                <button class="project-btn block text-left" data-project="calufa" onclick="loadProject('calufa')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">CALUFA</span>
+                </button>
+                <button class="project-btn block text-left" data-project="edrive" onclick="loadProject('edrive')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">E-Drive
+                        Expo</span>
+                </button>
+                <button class="project-btn block text-left" data-project="ijt" onclick="loadProject('ijt')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Inclusion
+                        des Jeunes au Travail</span>
+                </button>
+            </div>
+            <h3 class="text-neutral-500 text-xs uppercase tracking-widest mb-4 mt-10">Vidéos</h3>
+            <div class="space-y-2">
+                <button class="project-btn block text-left" data-project="videomissionp"
+                    onclick="loadProject('videomissionp')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Mission
+                        Possible</span>
+                </button>
+                <button class="project-btn block text-left" data-project="bandemissionp"
+                    onclick="loadProject('bandemissionp')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Mission
+                        Possible – BA</span>
+                </button>
+                <button class="project-btn block text-left" data-project="interviewgoat"
+                    onclick="loadProject('interviewgoat')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Qui
+                        est le GOAT ?</span>
+                </button>
+                <button class="project-btn block text-left" data-project="badmoment" onclick="loadProject('badmoment')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">BAD
+                        MOMENT</span>
+                </button>
+                <button class="project-btn block text-left" data-project="sensibilisationijt"
+                    onclick="loadProject('sensibilisationijt')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">PODIUM</span>
+                </button>
+                <button class="project-btn block text-left" data-project="animationpokemon"
+                    onclick="loadProject('animationpokemon')">
+                    <span
+                        class="project-label text-neutral-400 hover:text-white hover:translate-x-1 hover:opacity-90 inline-block transition-all duration-200">Animation
+                        Pokémon</span>
+                </button>
+            </div>
+            <h3 class="text-neutral-500 text-xs uppercase tracking-widest mb-4 mt-10">Sites Web</h3>
+            <div class="space-y-2">
+                <button class="project-btn block text-left" data-project="calufa"
+                    onclick="loadProject('calufa'); triggerCalufaSignal();">
+                    <span class="project-label">CALUFA.com</span>
+                </button>
+            </div>
+        </aside>
+        <main id="projectContent" class="flex-1 p-6 md:p-10">
+            <p class="text-neutral-500">Sélectionne un projet dans la liste.</p>
+        </main>
+    </section>
+
+    <footer class="bg-black py-12 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+            <a href="#" class="text-xl font-bold tracking-tighter uppercase text-white flex items-center gap-1">
+                Safuan Mahroum<span class="text-red-600">.</span>
+            </a>
+            <p class="text-neutral-600 text-xs">© 2026 Safuan Mahroum. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
