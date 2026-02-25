@@ -2,25 +2,23 @@ const projectPages = {
     illustrations: `
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-0">
 
-            <!-- Colonne 1 -->
             <div class="w-full h-full">
                 <img src="images/affiche_f22raptor.webp"
                      class="w-full h-full object-cover">
             </div>
 
-            <!-- Colonne 2 -->
             <div class="w-full h-full">
                 <img src="images/affiche_frida.webp"
                      class="w-full h-full object-cover">
             </div>
 
             <div class="w-full h-full">
-                <img src="images/affiche_calufa.webp"
+                <img src="images/affiche_pingpong.webp"
                      class="w-full h-full object-cover">
             </div>
 
             <div class="w-full h-full">
-                <img src="images/affiche_driveexpo3.webp"
+                <img src="images/affiche_calufa.webp"
                      class="w-full h-full object-cover">
             </div>
             
@@ -71,16 +69,6 @@ const projectPages = {
 
             <div class="w-full h-full">
                 <img src="images/livret_missionpossible2.webp"
-                     class="w-full h-full object-cover">
-            </div>
-
-            <div class="w-full h-full">
-                <img src="images/logo_missionpossible.webp"
-                     class="w-full h-full object-cover">
-            </div>
-
-            <div class="w-full h-full">
-                <img src="images/mockup_missionpossible.webp"
                      class="w-full h-full object-cover">
             </div>
         </div>
