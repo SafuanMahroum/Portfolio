@@ -3,6 +3,16 @@ const projectPages = {
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-0">
 
             <div class="w-full h-full">
+                <img src="images/affiche_toyotasupragt.webp"
+                     class="w-full h-full object-cover">
+            </div>
+
+            <div class="w-full h-full">
+                <img src="images/affiche_pingpong.webp"
+                     class="w-full h-full object-cover">
+            </div>
+
+            <div class="w-full h-full">
                 <img src="images/affiche_f22raptor.webp"
                      class="w-full h-full object-cover">
             </div>
@@ -13,7 +23,7 @@ const projectPages = {
             </div>
 
             <div class="w-full h-full">
-                <img src="images/affiche_pingpong.webp"
+                <img src="images/affiche_calufa.webp"
                      class="w-full h-full object-cover">
             </div>
 
