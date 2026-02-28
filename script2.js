@@ -3,6 +3,11 @@ const projectPages = {
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-0">
 
             <div class="w-full h-full">
+                <img src="images/affiche_f1alonso.webp"
+                     class="w-full h-full object-cover">
+            </div>
+
+            <div class="w-full h-full">
                 <img src="images/affiche_toyotasupragt.webp"
                      class="w-full h-full object-cover">
             </div>
@@ -13,17 +18,12 @@ const projectPages = {
             </div>
 
             <div class="w-full h-full">
-                <img src="images/affiche_f22raptor.webp"
-                     class="w-full h-full object-cover">
-            </div>
-
-            <div class="w-full h-full">
                 <img src="images/affiche_frida.webp"
                      class="w-full h-full object-cover">
             </div>
 
             <div class="w-full h-full">
-                <img src="images/affiche_calufa.webp"
+                <img src="images/affiche_f22raptor.webp"
                      class="w-full h-full object-cover">
             </div>
 
@@ -1971,3 +1971,20 @@ function triggerCalufaSignal() {
         signalCalufaButton();
     }, 400);
 }
+
+let lastScroll = 0;
+const nav = document.getElementById("main-nav");
+
+window.addEventListener("scroll", () => {
+    const current = window.scrollY;
+
+    if (current > lastScroll && current > 50) {
+        nav.style.transform = "translateY(-100%)";
+        nav.style.opacity = "0";
+    } else {
+        nav.style.transform = "translateY(0)";
+        nav.style.opacity = "1";
+    }
+
+    lastScroll = current;
+});

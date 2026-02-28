@@ -297,6 +297,41 @@
             <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
 
                 <div class="group relative aspect-[100/141] overflow-hidden cursor-pointer rounded-sm border border-white/5 fade-up"
+                    style="will-change: transform, opacity;" onclick="openImageModal('images/affiche_f1alonso.webp')">
+
+                    <img src="images/affiche_f1alonso.webp" alt="Affiche Fernando Alonso"
+                        class="w-full h-full object-cover object-[center_0%] transition-opacity duration-700 opacity-90 group-hover:opacity-100">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent 
+                opacity-0 group-hover:opacity-90 transition-opacity duration-500"></div>
+
+                    <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-between">
+
+                        <div class="flex justify-between items-start 
+                    opacity-0 group-hover:opacity-100 
+                    -translate-y-4 group-hover:translate-y-0 
+                    transition-all duration-500">
+                            <span
+                                class="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] uppercase tracking-widest text-white border border-white/10">
+                                2026
+                            </span>
+                            <span
+                                class="iconify text-white rotate-45 group-hover:rotate-0 transition-transform duration-500"
+                                data-icon="lucide:arrow-up-right" data-width="20"></span>
+                        </div>
+
+                        <div class="opacity-0 group-hover:opacity-100 
+                    translate-y-4 group-hover:translate-y-0 
+                    transition-all duration-500">
+                            <p class="text-red-500 text-[10px] md:text-xs font-mono uppercase tracking-widest mb-1">
+                                Affiche
+                            </p>
+                            <h3 class="text-lg md:text-2xl font-semibold text-white tracking-tight">Fernando Alonso</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="group relative aspect-[100/141] overflow-hidden cursor-pointer rounded-sm border border-white/5 fade-up"
                     style="will-change: transform, opacity;" onclick="openImageModal('images/affiche_toyotasupragt.webp')">
 
                     <img src="images/affiche_toyotasupragt.webp" alt="Affiche Supra GT"
@@ -398,42 +433,6 @@
                             </p>
                             <h3 class="text-lg md:text-2xl font-semibold text-white tracking-tight">Frida Kahlo</h3>
                         </div>
-                    </div>
-                </div>
-
-                <div class="group relative aspect-[100/141] overflow-hidden cursor-pointer rounded-sm border border-white/5 fade-up"
-                    style="will-change: transform, opacity;" onclick="openImageModal('images/affiche_f22raptor.webp')">
-
-                    <img src="images/affiche_f22raptor.webp" alt="F-22 Raptor poster"
-                        class="w-full h-full object-cover object-[center_0%] transition-opacity duration-700 opacity-90 group-hover:opacity-100">
-
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent 
-                opacity-0 group-hover:opacity-90 transition-opacity duration-500"></div>
-
-                    <div class="absolute inset-0 p-6 md:p-8 flex flex-col justify-between">
-
-                        <div class="flex justify-between items-start 
-                    opacity-0 group-hover:opacity-100 
-                    -translate-y-4 group-hover:translate-y-0 
-                    transition-all duration-500">
-                            <span
-                                class="px-3 py-1 bg-white/10 backdrop-blur-md rounded-full text-[10px] uppercase tracking-widest text-white border border-white/10">
-                                2025
-                            </span>
-                            <span
-                                class="iconify text-white rotate-45 group-hover:rotate-0 transition-transform duration-500"
-                                data-icon="lucide:arrow-up-right" data-width="20"></span>
-                        </div>
-
-                        <div class="opacity-0 group-hover:opacity-100 
-                    translate-y-4 group-hover:translate-y-0 
-                    transition-all duration-500">
-                            <p class="text-red-500 text-[10px] md:text-xs font-mono uppercase tracking-widest mb-1">
-                                Affiche
-                            </p>
-                            <h3 class="text-lg md:text-2xl font-semibold text-white tracking-tight">F-22 Raptor</h3>
-                        </div>
-
                     </div>
                 </div>
 
